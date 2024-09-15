@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "functions": {
-      "api/*.js": {
-        "memory": 1024,
-        "maxDuration": 60
-      }
-    },
     "builds": [
       {
         "src": "api/*.js",
@@ -20,7 +14,7 @@
       },
       {
         "src": "/",
-        "dest": "/api/index.js"
+        "dest": "/api/Server.js"
       }
     ]
   }
